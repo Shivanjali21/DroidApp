@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DroidApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/color_gray_solid</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DroidApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor" >@color/color_gray_solid</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.DroidApp" parent="Base.Theme.DroidApp"/>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#D8D7D7</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/android_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.DroidApp</item>
+    </style>
+
+</resources>
