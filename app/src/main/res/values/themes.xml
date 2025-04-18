@@ -11,10 +11,4 @@
 
     <style name="Theme.DroidApp" parent="Base.Theme.DroidApp"/>
 
-    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">#D8D7D7</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/android_logo</item>
-        <item name="postSplashScreenTheme">@style/Theme.DroidApp</item>
-    </style>
-
 </resources>
